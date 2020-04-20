@@ -6,8 +6,8 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  H = Hash["a"=>]
-  
+  H = Hash["a"=> 100]
+  H
 end
 
 def pioneer
