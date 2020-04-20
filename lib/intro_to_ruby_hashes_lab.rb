@@ -7,7 +7,7 @@ end
 def my_hash
   # return a valid hash with any key/value pair of your choice
   testing = Hash.new 
-  testing{["test2"] = 2
+  testing{["test2"] = "words"
   
 end
 
