@@ -12,14 +12,11 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  learning = Hash["name"=> "Grace Hopper"]
-  puts learning
+   { name: "Grace Hopper"
 end
 
 
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
-  testing = Hash.new
-  testing["space"] = number 
-  puts testing 
+  { this: number }
 end
